@@ -52,11 +52,5 @@ public class App {
 		return Optional.empty();
 
 	}
-
-	
-	public static void main(String[] args) {
-		String str=new App().speak(56945781).get();
-		System.out.println("result"+str);
-	}
 	 
 }
